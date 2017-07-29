@@ -1,0 +1,39 @@
+body{
+	font-family: 'Dancing Script';
+	margin-left: 15%;
+	background: #02010a;
+}
+
+header{
+	background: #5b7989;
+	text-shadow: 2px 2px #02010a;
+	color: white;
+	width: 900px;
+	border-radius: 10px 10px 0px 0;
+	padding-top: 10px; 
+}
+
+#menu{
+	float: right;
+}
+
+img{
+	box-shadow: 2px 2px  #02010a;
+}
+
+#contenido{
+	text-align: center;
+	background: #0f7711;
+}
+
+@media (min-width: 900px){
+	#contenido{
+	width: 900px;
+	}
+}
+
+@media (max-width: 900px){
+	#contenido{
+		width: 100%;
+	}
+}
